@@ -1,4 +1,4 @@
-package com.djumabaevs.gochipapp.util
+package com.djumabaevs.gochipappnew.util
 
 
 import android.content.Context

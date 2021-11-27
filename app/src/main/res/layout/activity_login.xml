@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:background="@color/colorWhite">
 
-        <com.djumabaevs.gochipapp.util.MSPEditText
+        <com.djumabaevs.gochipappnew.util.MSPEditText
             android:id="@+id/et_client_id"
             android:layout_width="381dp"
             android:layout_height="67dp"
@@ -29,7 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:text="abc@gmail.com" />
 
-        <com.djumabaevs.gochipapp.util.MSPEditText
+        <com.djumabaevs.gochipappnew.util.MSPEditText
             android:id="@+id/et_grant_type"
             android:layout_width="374dp"
             android:layout_height="58dp"
@@ -73,7 +73,7 @@
                 app:tint="@color/colorWhite" />
         </FrameLayout>
 
-        <com.djumabaevs.gochipapp.util.MSPTextViewBold
+        <com.djumabaevs.gochipappnew.util.MSPTextViewBold
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_title">
 
-            <com.djumabaevs.gochipapp.util.MSPEditText
+            <com.djumabaevs.gochipappnew.util.MSPEditText
                 android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/til_email">
 
-            <com.djumabaevs.gochipapp.util.MSPEditText
+            <com.djumabaevs.gochipappnew.util.MSPEditText
                 android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
-        <com.djumabaevs.gochipapp.util.MSPButton
+        <com.djumabaevs.gochipappnew.util.MSPButton
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

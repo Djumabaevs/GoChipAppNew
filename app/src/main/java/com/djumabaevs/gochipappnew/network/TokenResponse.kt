@@ -11,7 +11,7 @@ data class TokenResponse(
     val refreshExpiresIn: Long? = 0,
     @SerializedName("refresh_token")
     val refreshToken: String?,
-//    @SerializedName("token_type")
+    @SerializedName("token_type")
     val tokenType: String,
     @SerializedName("not-before-policy")
     val notBeforeType: Int? = 0,
