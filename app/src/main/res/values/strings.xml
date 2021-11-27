@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">GoChipAppNew</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="properties_of_chips">Properties of GoChip</string>
+    <string name="message_beaming_complete">Beaming complete!</string>
+    <string name="hint_your_message">Enter message</string>
+    <string name="label_your_message">Your message</string>
+    <string name="title_btn_set">Send message</string>
+
+    <string name="content_description">image</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">Email ID</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register"><u>Register</u></string>
+
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+    <string name="btn_lbl_register">Register</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>Login</u></string>
+
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <string name="title_forgot_password">FORGOT PASSWORD?</string>
+    <string name="forgot_password_title_description">Enter your username and e-mail address we\'ll send you a email to reset your password</string>
+    <string name="btn_lbl_submit">Submit</string>
+
+    <string name="email_sent_success">\"Email sent successfully to reset your password! \"</string>
+    <string name="vet">Vet</string>
+    <string name="shelter">Shelter</string>
+    <string name="owner">Owner</string>
+    <string name="choose_profile">Choose Profile</string>
+    <string name="phone_otp">Phone OTP</string>
+    <string name="switch_theme">Switch Theme</string>
+
+    <string name="error_token_expired">Your account is being used on another device.\nTo continue, you must log in again.</string>
+    <string name="error_invalid_address">Invalid address</string>
+    <string name="error_select_payment_option">Select payment option</string>
+    <string name="error_request_json_error">Request process failure</string>
+    <string name="error_request_connection_error">Check internet connection</string>
+    <string name="error_request_timeout">Server is not responding</string>
+    <string name="error_request_http_error_401">Unauthorized</string>
+    <string name="error_request_http_error_404">Page does not exist</string>
+    <string name="error_request_http_error_500">Internal server error</string>
+    <string name="error_request_http_error_format">Request error: %s</string>
+    <string name="error_request_error_unknown">Error: %s</string>
+    <string name="error_select_address">Delivery address not selected</string>
+    <string name="error_enter_name">Enter name</string>
+    <string name="error_enter_phone_number">Enter phone number</string>
+</resources>
