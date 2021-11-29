@@ -1,4 +1,4 @@
-package com.djumabaevs.gochipappnew.network
+package com.djumabaevs.gochipappnew.network.adapter
 
 import okhttp3.ResponseBody
 import retrofit2.Call

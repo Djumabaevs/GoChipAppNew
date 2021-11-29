@@ -1,4 +1,4 @@
-package com.djumabaevs.gochipappnew.network
+package com.djumabaevs.gochipappnew.network.adapter
 
 import retrofit2.Call
 import retrofit2.CallAdapter

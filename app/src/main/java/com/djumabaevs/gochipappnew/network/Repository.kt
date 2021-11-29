@@ -12,4 +12,8 @@ class Repository {
     ): Response<TokenResponse> {
         return RetrofitInstance.api.getJWTToken(username, password, grantType, clientId)
     }
+
+    suspend fun fetchSurcharge(lat: String, lon: String) : Response<SurchargeResponse> {
+        return RetrofitInstance.api.fetchSurcharge(lat, lon)
+    }
 }
