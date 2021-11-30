@@ -3,6 +3,7 @@ package com.djumabaevs.gochipappnew.network
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.djumabaevs.gochipappnew.network.adapter.NetworkResponse
 import kotlinx.coroutines.launch
 import retrofit2.Response
 
@@ -10,8 +11,9 @@ class MainViewModel(private val repository: Repository): ViewModel() {
 
     val myToken: MutableLiveData<Response<TokenResponse>> = MutableLiveData()
     val mySurcharge: MutableLiveData<Response<SurchargeResponse>> = MutableLiveData()
+    val myDataName: MutableLiveData<Response<List<DataResponse>>> = MutableLiveData()
 
-    fun getJWTToken(
+     fun getJWTToken(
         username: String,
         password: String,
         grantType: String,
@@ -30,5 +32,10 @@ class MainViewModel(private val repository: Repository): ViewModel() {
         }
     }
 
-
+    fun getData() {
+        viewModelScope.launch {
+            val dataName: Response<List<DataResponse>> = repository.getData()
+            myDataName.value = dataName
+        }
+    }
 }

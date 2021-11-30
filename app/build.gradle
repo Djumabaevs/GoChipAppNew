@@ -165,6 +165,9 @@ dependencies {
 
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
 
+    //JWT
+    implementation 'com.auth0.android:jwtdecode:2.0.0'
+
 
 }
 

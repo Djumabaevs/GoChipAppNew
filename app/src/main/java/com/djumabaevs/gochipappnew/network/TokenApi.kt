@@ -1,18 +1,20 @@
 package com.djumabaevs.gochipappnew.network
 
 
+import com.djumabaevs.gochipappnew.network.adapter.NetworkResponse
 import com.google.gson.annotations.SerializedName
 import retrofit2.Call
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.*
+import kotlin.Error
 
 const val baseUrl = "https://food-st1.maddevs.co/api/v2/"
 
 interface TokenApi {
+    @POST("auth/realms/syncrasy/protocol/openid-connect/token/")
     @FormUrlEncoded
-    @POST("token")
       suspend fun getJWTToken(
         @Field("username") username: String,
         @Field("password") password: String,
@@ -26,7 +28,15 @@ interface TokenApi {
         @Query("lon") lon: String
     ): Response<SurchargeResponse>
 
+    @GET("category")
+    suspend fun getData() :Response<List<DataResponse>>
+
 }
+
+data class DataResponse(
+    @SerializedName("name")
+    val name: String
+)
 
 data class SurchargeResponse(
     val isSuccess: Boolean,
