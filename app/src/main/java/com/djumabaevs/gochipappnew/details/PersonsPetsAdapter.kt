@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.djumabaevs.gochipapp.GetPersonPetQuery
+import com.djumabaevs.gochipappnew.databinding.PersonPetItemBinding
 
 class PersonsPetsAdapter(
 ) : RecyclerView.Adapter<PersonsPetsAdapter.ViewHolder>() {
