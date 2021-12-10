@@ -3,13 +3,60 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/RealAndroidProjects/GoChipAppNew/app/src/main/res/layout/activity_details.xml" value="0.1796875" />
-        <entry key="..\:/RealAndroidProjects/GoChipAppNew/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
-        <entry key="..\:/RealAndroidProjects/GoChipAppNew/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/RealAndroidProjects/GoChipAppNew/app/src/main/res/layout/person_pet_item.xml" value="0.16666666666666666" />
-        <entry key="..\:/RealAndroidProjects/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
-        <entry key="..\:/RealAndroidProjects/app/src/main/res/layout/activity_splash_screen.xml" value="0.1796875" />
-        <entry key="..\:/RealAndroidProjects/app/src/main/res/layout/dialog_progress.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/drawable/border.xml" value="0.19583333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/drawable/green_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/drawable/orange_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_ble_operations.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_ble_operations2.xml" value="0.165625" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_choose_login.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_choose_profile.xml" value="0.22" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_details_keycloak.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_device.xml" value="0.165625" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_digital_identity.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_keycloak.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_main_drawer.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_main_new.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_new_login.xml" value="0.22" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_new_register.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_pannel.xml" value="0.22" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_pet_new.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_receiver.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_scan.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_start.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_vet.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/activity_vet_panel.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/app_bar_main.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/card_test.xml" value="0.3333333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/cell_scan_result.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/content_main.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/dialog_progress.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/edittext_hex_payload.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_apollo.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_ble_details.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_custom_dialog_status.xml" value="0.3333333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_devices.xml" value="0.22" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_home.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_login.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_panel.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_pets_list.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/fragment_register.xml" value="0.165625" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/layout_alert_dialog_title.xml" value="0.3333333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/login_item.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/nav_header_main.xml" value="0.13541666666666666" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/person_item.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/person_pet_item.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/person_pet_keycloak.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/pet_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/pet_item_new.xml" value="0.175" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/row_characteristic.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/row_scan_result.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/layout/vet_item.xml" value="0.1796875" />
+        <entry key="..\:/RealAndroidProjects/GoChipApp/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1796875" />
       </map>
     </option>
   </component>

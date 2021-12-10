@@ -1,186 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start">
 
-    <data>
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    </data>
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header_main"
+    app:menu="@menu/menu" >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are logged in as "
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/phoneTv"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#777777"
+        android:text="Phone Number"/>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/scan_results_recycler_view"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        tools:listitem="@layout/row_scan_result"-->
+<!--        />-->
+
+
+</com.google.android.material.navigation.NavigationView>
+
+ <!--   <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorWhite"
-        tools:context=".MainActivity">
-
-        <FrameLayout
-            android:id="@+id/fl_header_image"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/auth_header_image_height"
-            android:background="?attr/colorPrimaryDark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/content_description"
-                android:scaleType="fitXY"
-                android:src="@drawable/my_rectangle" />
-
-            <ImageView
-                android:layout_width="@dimen/auth_logo_width_size"
-                android:layout_height="@dimen/auth_logo_height_size"
-                android:layout_gravity="center"
-                android:contentDescription="@string/app_name"
-                android:scaleType="fitCenter"
-                android:src="@drawable/logo"
-                app:tint="@color/colorWhite" />
-        </FrameLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_email"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="94dp"
-            android:layout_marginEnd="16dp"
-            android:hint="username"
-            android:textColorHint="@color/colorSecondaryText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fl_header_image">
-
-            <com.djumabaevs.gochipappnew.util.MSPEditText
-                android:id="@+id/et_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:padding="@dimen/et_padding"
-                android:textColor="@color/colorPrimaryText"
-                android:textSize="@dimen/et_textSize"
-                tools:text="abc@gmail.com" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_password"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:hint="password"
-            android:textColorHint="@color/colorSecondaryText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/til_email"
-            tools:layout_editor_absoluteY="373dp">
-
-            <com.djumabaevs.gochipappnew.util.MSPEditText
-                android:id="@+id/et_password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:padding="@dimen/et_padding"
-                android:textColor="@color/colorPrimaryText"
-                android:textSize="@dimen/et_textSize"
-                tools:text="123456" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_grant"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:hint="grant type"
-            android:textColorHint="@color/colorSecondaryText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/til_password"
-            tools:layout_editor_absoluteY="373dp">
-
-            <com.djumabaevs.gochipappnew.util.MSPEditText
-                android:id="@+id/et_grant"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:padding="@dimen/et_padding"
-                android:textColor="@color/colorPrimaryText"
-                android:textSize="@dimen/et_textSize"
-                tools:text="123456" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_client"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:hint="client id"
-            android:textColorHint="@color/colorSecondaryText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/til_grant"
-            tools:layout_editor_absoluteY="373dp">
-
-            <com.djumabaevs.gochipappnew.util.MSPEditText
-                android:id="@+id/et_client"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:padding="@dimen/et_padding"
-                android:textColor="@color/colorPrimaryText"
-                android:textSize="@dimen/et_textSize"
-                tools:text="123456" />
-        </com.google.android.material.textfield.TextInputLayout>
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />-->
 
 
-        <com.djumabaevs.gochipappnew.util.MSPButton
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:background="?attr/colorPrimary"
-            android:foreground="?attr/selectableItemBackground"
-            android:gravity="center"
-            android:paddingTop="@dimen/btn_padding"
-            android:paddingBottom="@dimen/btn_padding"
-            android:text="@string/btn_lbl_login"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/btn_textSize"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/til_client" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_login" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="33dp"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_login" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>
+</androidx.drawerlayout.widget.DrawerLayout>

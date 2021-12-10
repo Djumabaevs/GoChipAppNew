@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:paddingHorizontal="15dp">
+
+
+            <TextView
+                android:id="@+id/tvPersonName"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/green_blue"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:hint="name"/>
+        <TextView
+            android:id="@+id/tvPersonPhone"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/dark_green_blue"
+            android:fontFamily="@font/notosans_bolditalic"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:hint="phone" />
+
+        <TextView
+            android:id="@+id/tvPersonEmail"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/main_green"
+            android:layout_height="wrap_content"
+            android:hint="uid" />
+
+        <TextView
+            android:id="@+id/tvPersonPassword"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:textColor="@color/main_green"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:hint="uid" />
+
+
+
+
+    </LinearLayout>
+
+
+</layout>

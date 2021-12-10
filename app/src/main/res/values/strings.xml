@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoChipAppNew</string>
+    <string name="app_name">GoChipApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="properties_of_chips">Properties of GoChip</string>
     <string name="message_beaming_complete">Beaming complete!</string>

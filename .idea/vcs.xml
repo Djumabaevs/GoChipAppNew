@@ -2,20 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Delivery" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/DistanceTracker" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Foody" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/GoChipAndroid" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/GoChipApp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/GoChipVet" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/MyDota" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ProjectCompose" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ProjectDolceVita" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ProjectImperiyaPizza" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ProjectMagnit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/RealChat" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SocialNetworkTwitch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/WebApp/gochip_web" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/powerfulandroidapp" vcs="Git" />
   </component>
 </project>
